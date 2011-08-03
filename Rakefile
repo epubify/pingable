@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "pingable"
   gem.homepage = "http://github.com/epubify/pingable"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Doing nothing}
+  gem.description = %Q{A controller doing nothing, logging nothing. Call this from a cron job to keep the server alive, and in front of the cache.}
   gem.email = "rune@epubify.com"
   gem.authors = ["Rune Myrland"]
   # dependencies defined in Gemfile
