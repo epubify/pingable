@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{pingable}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Rune Myrland"]
-  s.date = %q{2011-08-03}
+  s.date = %q{2011-08-06}
   s.description = %q{A controller doing nothing, logging nothing. Call this from a cron job to keep the server alive, and in front of the cache.}
   s.email = %q{rune@epubify.com}
   s.extra_rdoc_files = [
@@ -20,13 +20,15 @@ Gem::Specification.new do |s|
     ".document",
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "app/controllers/ping_controller.rb",
     "config/routes.rb",
-    "controllers/ping_controller.rb",
     "lib/pingable.rb",
+    "pingable.gemspec",
     "spec/pingable_spec.rb",
     "spec/spec_helper.rb"
   ]
